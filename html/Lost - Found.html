@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost/Found</title>
+    <!-- Bootstrap Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Lost-Found.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="form-group col-4">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://content3.jdmagicbox.com/comp/mumbai/33/022p8016733/catalogue/commissioner-of-police-office-fort-mumbai-police-nprp5f.jpg" alt="Logo" style="width:60px;">
+                    </a>
+                </div>
+                <div class="form-group col-4">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Here..." aria-label="Search">
+
+                    </form>
+                </div>
+                <div class="form-group col-4">
+
+                    <select class="classical1 form-control sty cl-form" name="police-station" title="Police Station" required="">
+                                <option value="">Select police-station</option>
+            <option value="2">Aarey</option>
+            <option value="3">Agripada</option>
+            <option value="4">Airport</option>
+                                                    <option value="5">Amboli</option>
+                                                    <option value="6">Andheri</option>
+                                                    <option value="7">Antop Hill</option>
+                                                    <option value="8">Azad Maidan</option>
+                                                    <option value="10">B.K.C.</option>
+                                                    <option value="9">Bandra</option>
+                                                    <option value="11">Bangur Nagar</option>
+                                                    <option value="12">Bhandup</option>
+                                                    <option value="13">Bhoiwada</option>
+                                                    <option value="14">Borivali</option>
+                                                    <option value="15">Byculla</option>
+                                                    <option value="16">Charkop</option>
+                                                    <option value="17">Chembur</option>
+                                                    <option value="18">Chunabhatti</option>
+                                                    <option value="19">Colaba</option>
+                                                    <option value="20">Cuffe Parade</option>
+                                                   <option value="23">D. N. Nagar</option>
+                                                    <option value="24">Dadar</option>
+                                                    <option value="25">Dahisar</option>
+                                                    <option value="26">Deonar</option>
+                                                    <option value="27">Dharavi</option>
+                                                    <option value="28">Dindoshi</option>
+                                                    <option value="29">Dongri</option>
+                                                    <option value="22">Dr.D.B Marg</option>
+                                                    <option value="30">Gamdevi</option>
+                                                    <option value="31">Ghatkopar</option>
+                                                    <option value="32">Gorai</option>
+                                                    <option value="33">Goregaon</option>
+                                                    <option value="34">Govandi</option>
+                                                    <option value="36">Jogeshwari</option>
+                                                    <option value="37">Juhu</option>
+                                                    <option value="38">Kalachowki</option>
+                                                    <option value="39">Kandivali</option>
+                                                    <option value="40">Kanjurmarg</option>
+                                                    <option value="41">Kasturba marg</option>
+                                                    <option value="42">Khar</option>
+                                                    <option value="43">Kherwadi</option>
+                                                    <option value="44">Kurar</option>
+                                                    <option value="45">Kurla</option>
+                                                    <option value="46">L. T. Marg</option>
+                                                    <option value="48">M.H.B. Colony</option>
+                                                    <option value="47">M.I.D.C.</option>
+                                                    <option value="49">M.R.A. Marg</option>
+                                                    <option value="50">Mahim</option>
+                                                    <option value="52">Malabar Hill</option>
+                                                    <option value="51">Malad</option>
+                                                    <option value="53">Malvani</option>
+                                                    <option value="54">Mankhurd</option>
+                                                    <option value="55">Marine Drive</option>
+                                                    <option value="56">Matunga</option>
+                                                    <option value="57">Meghwadi</option>
+                                                    <option value="58">Mulund</option>
+                                                                                                                                                                                                      <option value="61">N. M. Joshi Marg</option>
+                                                    <option value="62">Nagpada</option>
+                                                    <option value="63">Navghar</option>
+                                                    <option value="64">Nehru Nagar</option>
+                                                    <option value="65">Nirmal Nagar</option>
+                                                    <option value="66">Oshiwara</option>
+                                                    <option value="67">PantNagar</option>
+                                                    <option value="68">Parksite</option>
+                                                    <option value="69">Powai</option>
+                                                    <option value="70">Pydhonie</option>
+                                                    <option value="71">R.A.K. Marg</option>
+                                                    <option value="72">R.C.F.</option>
+                                                    <option value="73">Sahar</option>
+                                                    <option value="74">Sakinaka</option>
+                                                    <option value="75">Samta Nagar</option>
+                                                    <option value="76">Santacruz</option>
+                                                    <option value="77">Sewree</option>
+                                                    <option value="78">Shahu nagar</option>
+                                                    <option value="79">Shivaji Nagar</option>
+                                                    <option value="80">Shivaji Park</option>
+                                                    <option value="81">Sion</option>
+                                                    <option value="35">Sir J.J. Marg</option>
+                                                    <option value="82">Tardeo</option>
+                                                    <option value="83">Tilak Nagar</option>
+                                                    <option value="84">Trombay</option>
+                                                    <option value="85">V. P. Road</option>
+                                                    <option value="86">Vakola</option>
+                                                    <option value="87">Vanrai</option>
+                                                    <option value="88">Versova</option>
+                                                    <option value="89">Vikhroli</option>
+                                                    <option value="90">VileParle</option>
+                                                    <option value="91">Vinoba Bhave Nagar</option>
+                                                    <option value="92">Wadala</option>
+                                                    <option value="93">Wadala Truck Terminal</option>
+                                                    <option value="94">Worli</option>
+                                                    <option value="95">Yellow Gate</option>
+                            </select>
+
+                </div>
+            </div>
+    </div>
+    </div>
+    </form>
+    </div>
+    <!-- Navbar -->
+    <nav>
+        <div>
+            <ul class=" nav ">
+                <li class="nav-item ">
+                    <a class="nav-link active " href="# ">Home</a>
+
+                </li>
+
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " href="# " id="navbarDropdown " role="button " data-toggle="dropdown ">
+                        About Us
+    
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown ">
+                        <a class="dropdown-item " href="about-history.html ">History</a>
+                        <a class="dropdown-item " href="hall-of-fame.html ">Hall Of Fame</a>
+                        <a class="dropdown-item " href="our.html ">Our-Mission</a>
+                        <a class="dropdown-item " href="Responsibilities.html ">Responsibilities</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " href="# " id="navbarDropdown " role="button " data-toggle="dropdown "> Report Us
+                            </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown ">
+                        <a class="dropdown-item " href="report-us.html ">Tenant Information</a>
+                        <a class="dropdown-item " href="online-com.html ">Online Complaint</a>
+                        <a class="dropdown-item " href="Lost - Found.html ">Lost/Found</a>
+                        <a class="dropdown-item " href="Responsibilities.html ">Responsibilities</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " href="# " id="navbarDropdown " role="button " data-toggle="dropdown ">
+                        Special Units
+                        </a>
+
+                    <ul class="dropdown-menu multi-level " role="menu " aria-labelledby="dropdownMenu ">
+                        <li class="dropdown-submenu ">
+                            <a class="dropdown-item " tabindex="-1 " href="# ">Crime Branch</a>
+                            <ul class="dropdown-menu ">
+                                <li class="dropdown-item "><a tabindex="-1 " href="crime-branch.html ">Crime Branch</a></li>
+                                <li class="dropdown-item "><a href="cyber.html ">Cyber Crime</a></li>
+                                <li class="dropdown-item "><a href="anti.html ">Anti Narcotics Cell</a></li>
+                            </ul>
+                            <a class="dropdown-item " tabindex="-1 " href="trafic.html ">Traffic Branch</a>
+                            <a class="dropdown-item " tabindex="-1 " href="surgone.html ">Police Surgeon</a>
+                            <a class="dropdown-item " tabindex="-1 " href="motor.html ">Motor Transport Unit</a>
+                        </li>
+
+                </li>
+                </ul>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link active " href="# ">Citizen Corner</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle " href="# " id="navbarDropdown " role="button " data-toggle="dropdown ">
+                        Police Corner
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown ">
+                        <a class="dropdown-item " href="good-work.html ">Good Work</a>
+                        <a class="dropdown-item " href="Recruitment.html ">Recruitment</a>
+
+                        <a class="dropdown-item " href="policef.html ">
+                            Police Foundation
+                            </a>
+                    </div>
+
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " href="# " id="navbarDropdown " role="button " data-toggle="dropdown ">
+                        Contact Us
+    
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown ">
+                        <a class="dropdown-item " href="incharge.html ">Police Station Incharge</a>
+                        <a class="dropdown-item " href="Divisional ACP′s.html ">Divisional ACP′s</a>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <main>
+        <div>
+            <div class="row-h4">
+                <h4 title="Online Complaint">Lost / Found</h4>
+            </div>
+        </div>
+    </main>
+    <div class="btn-submit">
+        <input class="btn btn-outline-primary btn-lg" type="submit" value="Search Lost/Found Artical">
+        <a href="found.html" alt="Search Lost/Found Artical"></a>
+    </div>
+    <div class="lost-para">
+        <p>
+            This application is for providing Lost and Found Information to Police. Information reported under this application is not a <br> subject matter of enquiry/investigation. False report to Police is a punishable offence. Reporting person shall
+            be solely<br> responsible for any false information. Dial 100, if there is any emergency.
+        </p>
+        <div>
+            <div class="row-1">
+                <div class="form-group col-4">
+                    <label for="exampleFormControlFile1">Police Station*</label>
+                    <select class="classical1 form-control sty cl-form" name="police-station" title="Police Station" required="">
+                    <option value="">Kanjurmarg</option>
+<option value="2">Aarey</option>
+<option value="3">Agripada</option>
+<option value="4">Airport</option>
+                                        <option value="5">Amboli</option>
+                                        <option value="6">Andheri</option>
+                                        <option value="7">Antop Hill</option>
+                                        <option value="8">Azad Maidan</option>
+                                        <option value="10">B.K.C.</option>
+                                        <option value="9">Bandra</option>
+                                        <option value="11">Bangur Nagar</option>
+                                        <option value="12">Bhandup</option>
+                                        <option value="13">Bhoiwada</option>
+                                        <option value="14">Borivali</option>
+                                        <option value="15">Byculla</option>
+                                        <option value="16">Charkop</option>
+                                        <option value="17">Chembur</option>
+                                        <option value="18">Chunabhatti</option>
+                                        <option value="19">Colaba</option>
+                                        <option value="20">Cuffe Parade</option>
+                                       <option value="23">D. N. Nagar</option>
+                                        <option value="24">Dadar</option>
+                                        <option value="25">Dahisar</option>
+                                        <option value="26">Deonar</option>
+                                        <option value="27">Dharavi</option>
+                                        <option value="28">Dindoshi</option>
+                                        <option value="29">Dongri</option>
+                                        <option value="22">Dr.D.B Marg</option>
+                                        <option value="30">Gamdevi</option>
+                                        <option value="31">Ghatkopar</option>
+                                        <option value="32">Gorai</option>
+                                        <option value="33">Goregaon</option>
+                                        <option value="34">Govandi</option>
+                                        <option value="36">Jogeshwari</option>
+                                        <option value="37">Juhu</option>
+                                        <option value="38">Kalachowki</option>
+                                        <option value="39">Kandivali</option>
+                                        <option value="40">Kanjurmarg</option>
+                                        <option value="41">Kasturba marg</option>
+                                        <option value="42">Khar</option>
+                                        <option value="43">Kherwadi</option>
+                                        <option value="44">Kurar</option>
+                                        <option value="45">Kurla</option>
+                                        <option value="46">L. T. Marg</option>
+                                        <option value="48">M.H.B. Colony</option>
+                                        <option value="47">M.I.D.C.</option>
+                                        <option value="49">M.R.A. Marg</option>
+                                        <option value="50">Mahim</option>
+                                        <option value="52">Malabar Hill</option>
+                                        <option value="51">Malad</option>
+                                        <option value="53">Malvani</option>
+                                        <option value="54">Mankhurd</option>
+                                        <option value="55">Marine Drive</option>
+                                        <option value="56">Matunga</option>
+                                        <option value="57">Meghwadi</option>
+                                        <option value="58">Mulund</option>
+                                                                                                                                                                                          <option value="61">N. M. Joshi Marg</option>
+                                        <option value="62">Nagpada</option>
+                                        <option value="63">Navghar</option>
+                                        <option value="64">Nehru Nagar</option>
+                                        <option value="65">Nirmal Nagar</option>
+                                        <option value="66">Oshiwara</option>
+                                        <option value="67">PantNagar</option>
+                                        <option value="68">Parksite</option>
+                                        <option value="69">Powai</option>
+                                        <option value="70">Pydhonie</option>
+                                        <option value="71">R.A.K. Marg</option>
+                                        <option value="72">R.C.F.</option>
+                                        <option value="73">Sahar</option>
+                                        <option value="74">Sakinaka</option>
+                                        <option value="75">Samta Nagar</option>
+                                        <option value="76">Santacruz</option>
+                                        <option value="77">Sewree</option>
+                                        <option value="78">Shahu nagar</option>
+                                        <option value="79">Shivaji Nagar</option>
+                                        <option value="80">Shivaji Park</option>
+                                        <option value="81">Sion</option>
+                                        <option value="35">Sir J.J. Marg</option>
+                                        <option value="82">Tardeo</option>
+                                        <option value="83">Tilak Nagar</option>
+                                        <option value="84">Trombay</option>
+                                        <option value="85">V. P. Road</option>
+                                        <option value="86">Vakola</option>
+                                        <option value="87">Vanrai</option>
+                                        <option value="88">Versova</option>
+                                        <option value="89">Vikhroli</option>
+                                        <option value="90">VileParle</option>
+                                        <option value="91">Vinoba Bhave Nagar</option>
+                                        <option value="92">Wadala</option>
+                                        <option value="93">Wadala Truck Terminal</option>
+                                        <option value="94">Worli</option>
+                                        <option value="95">Yellow Gate</option>
+                </select>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <span>
+                Applicant Details</span>
+    </div>
+    <div>
+        <!-- forms -->
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label for="Full-name">Full Name*</label>
+                        <input type="name" class="form-control " id="Full-name" placeholder="Dipali">
+                    </div>
+
+                    <div class="form-group col-4">
+                        <label for="email-id">E-mail ID*</label>
+                        <input type="email" class="form-control" id="email-id" aria-describedby="emailHelp" placeholder="dipalisalve25@domain.com">
+
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="form-group col-4">
+                        <label for="Address">Address</label>
+                        <input type="text" class="form-control" id="Address" placeholder="Sector-1,Bandra,Mumbai ">
+
+                    </div>
+                    <div class="form-group col-4">
+                        <label for="Contact-number">Contact Number*</label>
+                        <input type="name" class="form-control" id="Contact-number" placeholder="9136329422">
+
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="form-group col-4">
+                        <label for="Address">Pin Code</label>
+                        <input type="text" class="form-control" id="pin-code" placeholder="Sector-1,Bandra,Mumbai ">
+
+                    </div>
+                </div>
+        </div>
+        </form>
+        <div>
+            <span>
+                    Article Details</span>
+        </div>
+        <!-- forms -->
+        <div class="container">
+            <form>
+
+
+                <div class="form-group col-4">
+                    <label for="exampleFormControlFile1">Report Type*</label>
+                    <select class="classical1 form-control sty cl-form" name="police-station" title="Police Station" required="" placeholder="select Report Type">
+                        <option value="">select Report Type </option>
+                        <option value="2">Lost Item Report</option>
+                        <option value="3">Found Item Report</option>
+                        </select>
+                </div>
+        </div>
+
+
+        <div class="form-group col-4">
+            <label for="exampleFormControlFile1">Artical Type*</label>
+            <select class="classical1 form-control sty cl-form" name="police-station" title="Police Station" required="" placeholder="select Artical Type">
+<option value="">select Artical Type </option>
+<option value="2">Pan Card</option>
+<option value="3">Adhar card</option>
+<option value="3">Driving License</option>
+
+<option value="3">Ration card</option>
+
+<option value="3">Voter Id card</option>
+
+<option value="3">Educational Document</option>
+
+<option value="3">Other Document</option>
+
+<option value="3">Adhar card</option>
+        
+            
+</select>
+        </div>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label>Lost/Found Date Time*</label>
+                        <input id="datetime" type="datetime" class="form-control " value="" placeholder="14:09:2018 23:00">
+                    </div>
+
+                    <div class="form-group col-4">
+                        <label for="adress">Address of Lost / Found Article * *</label>
+                        <input type="text" class="form-control" id="adress" aria-describedby="emailHelp" placeholder="">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label>Area/Street Name*</label>
+                        <input id="adress" type="text" class="form-control " value="" placeholder="">
+                    </div>
+
+                    <div class="form-group col-4">
+                        <label for="adress">City/ District*</label>
+                        <input type="text" class="form-control" id="adress" aria-describedby="emailHelp" placeholder="">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-4">
+                        <label>State</label>
+                        <input id="datetime" type="datetime" class="form-control " value="" placeholder="" value="Maharashtra">
+                    </div>
+
+                    <div class="form-group col-4">
+                        <label for="pin-code">Pin Code *</label>
+                        <input type="text" class="form-control" id="adress" aria-describedby="emailHelp" placeholder="4000042">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-12">
+
+                        <label for="exampleFormControlTextarea1">Article Description * *</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="form-group col-12">
+                        <label for="exampleFormControlFile1">Select Files to Upload</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                </div>
+                <div class="col-md-11 col-sm-11">
+                    <input class="big-check" type="checkbox" required="">
+                </div>
+                <div class="content">
+                    <p class="agree-check" title="I certify that the information provided by me in above form... criminal offense and may result in legal action against me.">
+                        I certify that the information provided by me in above form is accurate and correct as per best of my knowledge. I understand that withholding of information or giving false information is a criminal offense and may result in legal action against me.
+                    </p>
+                    <p></p>
+                    <h4> DISCLAIMER:</h4>
+                    <p>
+                        As per the prevailing laws, FIR of a major crime (′cognizable crimes like theft, burglary, motor vehicle theft, accident, chain-snatching, assault, rape, murder, attempt to commit murder, robbery, dacoity, extortion etc) can only be registered at a Police
+                        Station. Please contact your nearest Police Station for the same.
+                        <br>
+                        <br> This site shall only entertain complaints about minor crimes (′non-cognizable crimes′).Your complaint shall be referred to the concerned Police Station, where you may be called for further clarification and/or to give statement.
+                    </p>
+                    <p></p>
+                </div>
+        </div>
+        <div class="btn-submit">
+            <input class="btn btn-outline-primary btn-lg" type="submit" value="Submit">
+            <input class="btn btn-outline-primary btn-lg" type="reset" value="reset">
+        </div>
+
+    </div>
+
+    </div>
+    </form>
+
+
+
+
+
+
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

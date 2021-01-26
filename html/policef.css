@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+}
+
+.row-1 {
+    background-color: #ffffff;
+}
+
+.header-logo {
+    vertical-align: middle;
+    border-style: none;
+    border: 0;
+}
+
+.nav {
+    background-color: #5e6ab0;
+    padding: 18px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.dropdown-menu {
+    padding: 10px;
+}
+
+.nav-link {
+    background-color: #5e6ab0;
+    color: white;
+}
+
+.dropdown a:hover {
+    background-color: #5e6ab0;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-item {
+    letter-spacing: 0px;
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.row-h4 {
+    font-family: PlayfairDisplay;
+    font-size: 1.714em;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px 60px 60px;
+}
+
+.row {
+    border-radius: 3px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+.form-control-file {
+    border: 1px solid #aaaaaa;
+    width: 100%;
+    font-size: 17px;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+}
+
+.big-check {
+    width: 20px;
+    height: 20px;
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.content {
+    padding-left: 80px;
+    margin-top: -30px;
+}
+
+.btn-submit {
+    padding-left: 50%;
+    padding-bottom: 50px;
+}
+
+.btn-submit input {
+    width: 200px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+
+.carousel-inner img {
+    height: 400px;
+    width: 400px;
+    padding-bottom: 3%;
+}
+
+#cb {
+    margin-top: 25%;
+    margin-left: 55%;
+    font-size: 35px;
+}
+
+.cp {
+    margin-left: 55%;
+    font-size: 16px;
+}
+
+.row {
+    background-color: rgb(224, 223, 223);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+
+p {
+    text-align: justify;
+    margin-left: 25%;
+    padding-top: 2%;
+    font-size: 20px;
+    line-height: inherit;
+    padding-bottom: 3%;
+}
+
+h {
+    margin-left: 25%;
+    margin-top: 6%;
+    font-size: 25px;
+    line-height: inherit;
+    padding-top: 3%;
+}
+
+p1 {
+    text-align: justify;
+    margin-left: 25%;
+    padding-top: 2%;
+    font-size: 18px;
+    line-height: inherit;
+    padding-bottom: 3%;
+    color: #565656;
+}
+
+body {
+    font-family: 'Playfair Display', serif !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+ol {
+    text-align: justify;
+    line-height: inherit;
+    margin-left: 23%;
+}
+
+li {
+    text-align: justify;
+    line-height: inherit;
+}

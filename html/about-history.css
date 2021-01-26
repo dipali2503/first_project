@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+.nav {
+    background-color: #5e6ab0;
+    padding: 18px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-item {
+    letter-spacing: 0px;
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+.row-h4 {
+    font-family: PlayfairDisplay;
+    font-size: 1.714em;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px 60px 60px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    opacity: 0.9;
+    line-height: 1.88;
+    font-size: 1.143em;
+    margin: 0 0 10px;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+h4 {
+    color: #292626;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.heading {
+    font-family: PlayfairDisplay;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 13px 0 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+}
+
+p1 {
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.police-image {
+    height: 240px;
+    width: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+    border-style: none;
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+.row-1 {
+    background-color: #ffffff;
+}
+
+.header-logo {
+    vertical-align: middle;
+    border-style: none;
+    border: 0;
+}
+
+.nav {
+    background-color: #5e6ab0;
+    padding: 18px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.dropdown-menu {
+    padding: 10px;
+}
+
+.nav-link {
+    background-color: #5e6ab0;
+    color: white;
+}
+
+.dropdown a:hover {
+    background-color: #5e6ab0;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-item {
+    letter-spacing: 0px;
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.row-h4 {
+    font-family: PlayfairDisplay;
+    font-size: 1.714em;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px 60px 60px;
+}
+
+.row {
+    border-radius: 3px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.form-control-file {
+    border: 1px solid #aaaaaa;
+    width: 100%;
+    font-size: 17px;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+}
+
+.big-check {
+    width: 20px;
+    height: 20px;
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.content {
+    padding-left: 80px;
+    margin-top: -30px;
+}
+
+.btn-submit {
+    padding-left: 50%;
+    padding-bottom: 50px;
+}
+
+.btn-submit input {
+    width: 200px;
+    margin-right: 20px;
+}

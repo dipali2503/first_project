@@ -1,0 +1,57 @@
+.carousel-inner img {
+    height: 400px;
+    width: 400px;
+}
+
+#cb {
+    margin-top: 25%;
+    margin-left: 55%;
+    font-size: 35px;
+}
+
+.cp {
+    margin-left: 55%;
+    font-size: 16px;
+}
+
+.row {
+    background-color: rgb(224, 223, 223);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    margin-left: 25%;
+    padding-top: 2%;
+    font-size: 28px;
+    line-height: inherit;
+    padding-bottom: 3%;
+}
+
+h {
+    margin-left: 25%;
+    margin-top: 6%;
+    font-size: 25px;
+    line-height: inherit;
+    padding-top: 3%;
+}
+
+p1 {
+    text-align: justify;
+    margin-left: 25%;
+    padding-top: 2%;
+    font-size: 18px;
+    line-height: inherit;
+    padding-bottom: 3%;
+    color: #565656;
+}
+
+body {
+    font-family: 'Playfair Display', serif !important;
+    font-family: 'Nunito', sans-serif !important;
+}

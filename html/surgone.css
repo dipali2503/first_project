@@ -1,0 +1,64 @@
+.carousel-inner img {
+    height: 400px;
+    width: 400px;
+    padding-bottom: 3%;
+}
+
+#cb {
+    margin-top: 25%;
+    margin-left: 55%;
+    font-size: 35px;
+}
+
+.cp {
+    margin-left: 55%;
+    font-size: 16px;
+}
+
+.row {
+    background-color: rgb(224, 223, 223);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 28px;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+
+p {
+    text-align: justify;
+    margin-left: 20%;
+    padding-top: 2%;
+    font-size: 20px;
+    line-height: inherit;
+    padding-bottom: 3%;
+    color: #565656;
+}
+
+body {
+    font-family: 'Playfair Display', serif !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+span {
+    font-family: 'Playfair Display', serif !important;
+    font-family: 'Nunito', sans-serif !important;
+    padding-top: 2%;
+    font-size: 24px;
+    line-height: inherit;
+    color: #807a7a;
+    text-decoration: underline;
+    padding-left: 25%;
+}
+
+p {
+    text-align: justify;
+    margin-left: 20%;
+    padding-top: 2%;
+    font-size: 20px;
+    line-height: inherit;
+    padding-bottom: 3%;
+    color: #565656;
+}
